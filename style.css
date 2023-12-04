@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .5s;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url('../netflix-assignment/header-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.dark{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.net{
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+}
+
+.sign{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+}
+
+.engl{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 159, 159);
+    justify-content: center;
+    border: 2px solid rgb(160, 159, 159);
+    border-radius: 5px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.fa-angle-up{
+    font-size: 20px;
+}
+
+.eng{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.detail{
+    margin-top: 100px;
+    color: white;
+}
+
+.un{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.wa{
+    padding-top: 30px;
+    font-size: 27px;
+    font-weight: lighter;
+}
+
+.re{
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.ema{
+    margin-top: 30px;
+    width: 400px;
+    padding-left: 20px;
+    height: 40px;
+    background-color: white;
+    border-radius: 2px solid black;
+}
+
+.bu{
+    width: 110px;
+    height: 35px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.sm{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 40px;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 8px solid rgb(71, 71, 71);
+    border-bottom: 4px solid rgb(71, 71, 71);
+}
+
+.blu{
+    /* margin-left: 100px; */
+    color: white;
+}
+
+.hau{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tin{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.pic1{
+    background-image: url('../netflix-assignment/tv.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 240px;
+    /* margin-left: 750px; */
+}
+
+.sm2{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 80px;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 4px solid rgb(71, 71, 71);
+    border-bottom: 4px solid rgb(71, 71, 71);
+}
+
+.hau2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tin2{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.pic2{
+    background-image: url('../netflix-assignment/mobile-0819.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+}
+
+.sm3{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 4px solid rgb(71, 71, 71);
+    border-bottom: 4px solid rgb(71, 71, 71);
+}
+
+.hau3{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tin3{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.blu3{
+    margin-left: -410px;
+}
+
+.sm4{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 80px;
+    padding-right: 40px;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 4px solid rgb(71, 71, 71);
+    border-bottom: 4px solid rgb(71, 71, 71);
+}
+
+.blu4{
+    /* margin-left: 100px; */
+    color: white;
+}
+
+.hau4{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tin4{
+    padding-top: 10px;
+    font-size: 21px;
+    font-weight: lighter;
+}
+
+.pic4{
+    background-image: url('../netflix-assignment/AAAABejKYujIIDQciqmGJJ8BtXkYKKTi5jiqexltvN1YmvXYIfX8B9CYwooUSIzOKneblRFthZAFsYLMgKMyNfeHwk16DmEkpIIcb6A3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 240px;
+    /* margin-left: 750px; */
+}
+
+.sm5{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-top: 4px solid rgb(71, 71, 71);
+    border-bottom: 4px solid rgb(71, 71, 71);
+}
+
+.drop1{
+    width: 700px;
+}
+
+.drop2{
+    width: 700px;
+}
+
+.drop3{
+    width: 700px;
+}
+
+.drop4{
+    width: 700px;
+}
+
+.drop5{
+    width: 700px;
+}
+
+.drop6{
+    width: 700px;
+}
+
+.win{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.win2{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.win3{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.win4{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.win5{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.win6{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    cursor: pointer;
+    margin-top: 30px;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 24px;
+    background-color: rgb(63, 62, 62);
+}
+
+.wrapper-content{
+    background-color: rgb(63, 62, 62);
+    height: 0;
+    overflow-y: hidden;
+}
+
+.freq{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.crte{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+.cus{
+    width: 820px;
+    height: fit-content;
+    display: flex;
+    justify-content: start;
+}
+
+.cnus{
+    color: white;
+}
+
+.holder{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.holder1{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder2{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder3{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.holder4{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.hold1{
+    color: white;
+}
+
+.hold12{
+    color: white;
+}
+
+.hold13{
+    color: white;
+}
+
+.hold14{
+    color: white;
+}
+
+.hold21{
+    color: white;
+}
+
+.hold22{
+    color: white;
+}
+
+.hold23{
+    color: white;
+}
+
+.hold24{
+    color: white;
+}
+
+.hold31{
+    color: white;
+}
+
+.hold32{
+    color: white;
+}
+
+.hold33{
+    color: white;
+}
+
+.hold34{
+    color: white;
+}
+
+.hold41{
+    color: white;
+}
+
+.hold42{
+    color: white;
+}
+
+.hold43{
+    color: white;
+}
+
+.engl1{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(160, 159, 159);
+    justify-content: center;
+    border: 2px solid rgb(160, 159, 159);
+    border-radius: 5px;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.active{
+    height: fit-content;
+    padding: 20px;
+    overflow-y: visible;
+    background-color: rgb(63, 62, 62);
+}
+
+@media screen and (max-width: 500px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        transition: .5s;
+        font-family: sans-serif;
+      }
+  
+      body {
+        background-image: url('../netflix-assignment/header-image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+      }
+  
+      .dark {
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.726);
+      }
+  
+      nav {
+        width: 100%;
+        height: 70px;
+        position: sticky;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+        padding-left: 50px;
+      }
+  
+      .net {
+        font-size: 30px;
+        font-weight: bolder;
+        color: red;
+      }
+  
+      .sign {
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: red;
+        color: white;
+        font-weight: 500;
+      }
+  
+      .engl {
+        width: 100px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        color: rgb(160, 159, 159);
+        justify-content: center;
+        border: 2px solid rgb(160, 159, 159);
+        border-radius: 5px;
+        gap: 7px;
+        cursor: pointer;
+      }
+  
+      .fa-angle-up {
+        font-size: 20px;
+      }
+  
+      .eng {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+      }
+  
+      .detail {
+        margin-top: 100px;
+        color: white;
+      }
+  
+      .un {
+        font-size: 50px;
+        font-weight: bolder;
+      }
+  
+      .wa,
+      .re {
+        padding-top: 30px;
+        font-size: 27px;
+        font-weight: lighter;
+      }
+  
+      .ema {
+        margin-top: 30px;
+        width: 400px;
+        padding-left: 20px;
+        height: 40px;
+        background-color: white;
+        border-radius: 2px solid black;
+      }
+  
+      .bu {
+        width: 110px;
+        height: 35px;
+        color: white;
+        background-color: red;
+        cursor: pointer;
+      }
+  
+      .sm {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+        padding-right: 40px;
+        justify-content: space-around;
+        background-color: black;
+        border-top: 8px solid rgb(71, 71, 71);
+        border-bottom: 4px solid rgb(71, 71, 71);
+      }
+  
+      .pic1 {
+        background-image: url('../netflix-assignment/tv.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 450px;
+        height: 240px;
+      }
+  
+      .sm2 {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        padding-left: 40px;
+        padding-right: 80px;
+        align-items: center;
+        color: white;
+        justify-content: space-around;
+        background-color: black;
+        border-top: 4px solid rgb(71, 71, 71);
+        border-bottom: 4px solid rgb(71, 71, 71);
+      }
+  
+      .pic2 {
+        background-image: url('../netflix-assignment/mobile-0819.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 450px;
+        height: 300px;
+      }
+  
+      .sm3 {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        color: white;
+        justify-content: space-around;
+        background-color: black;
+        border-top: 4px solid rgb(71, 71, 71);
+        border-bottom: 4px solid rgb(71, 71, 71);
+      }
+  
+      .sm4 {
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding-left: 80px;
+        padding-right: 40px;
+        justify-content: space-around;
+        background-color: black;
+        border-top: 4px solid rgb(71, 71, 71);
+        border-bottom: 4px solid rgb(71, 71, 71);
+      }
+}
+
